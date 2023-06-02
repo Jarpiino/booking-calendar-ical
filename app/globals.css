@@ -25,3 +25,15 @@ body {
     )
     rgb(var(--background-start-rgb));
 }
+.react-datepicker {
+  font-size: 1.3rem !important;
+}
+.react-datepicker__day--disabled {
+  background-color: #d5d5d5;
+  border-radius: 4px;
+  color: #757884 !important;
+}
+.react-datepicker__day--disabled:hover {
+  background-color: #d5d5d5;
+  border-radius: 0.3em;
+}
